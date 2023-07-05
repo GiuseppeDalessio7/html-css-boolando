@@ -64,7 +64,11 @@
     background-color: #d7d7d7;
 }
 
-.row {
+.article{margin-bottom: 30px;}
+
+.row {width: calc( 100vh / 3 - 9rem);
+        height: 100%;
+        margin: 0 auto;
     padding: 2rem;
 
 }
@@ -110,6 +114,12 @@
 
 }
 
+.imgback{width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;}
+
 .article p {
     font-size: 12px;
 }
@@ -140,6 +150,6 @@
     display: block
 }
 
-.article:hover .img {
-    <img src="./im"
-}
+
+
+.article:hover .imgback {display: block;}

@@ -30,26 +30,116 @@
     background-color: var(--bl-title)
 }
 
-.gender {display: flex;
+.gender {
+    display: flex;
     justify-content: center;
     text-align: left;
     width: 20%;
     max-height: 100%;
     gap: 0.75rem;
-    
+
 }
 
-.gender a {text-decoration: none;
-            color: white;
-            }
+.gender a {
+    text-decoration: none;
+    color: white;
+}
 
-.logo{width: 80%;
+.logo {
+    width: 80%;
     text-align: center;
     max-height: 100%;
 }
 
-.shop{width: 20%;
+.shop {
+    width: 20%;
     max-height: 100%;
-    text-align: right;}
+    text-align: right;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    margin: 2rem auto;
+    background-color: #d7d7d7;
+}
+
+.row {
+    padding: 2rem;
+
+}
+
+.row .article {
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.sconto.high {
+    background-color: var(--bl-redcard);
+}
+
+.sostenibility {
+    background-color: var(--bl-greencard);
+}
+
+.article>.sconto {
+    width: 15%;
+    height: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    font-size: 10px;
+    line-height: 1rem;
+    border-radius: 2px;
+}
+
+.article>.sostenibility {
+    width: 25%;
+    height: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 16%;
+    font-size: 10px;
+    line-height: 1rem;
+    border-radius: 2px;
+
+}
+
+.article p {
+    font-size: 12px;
+}
+
+.article h5 {
+    font-size: 18px;
+}
+
+.price {
+    color: var(--bl-redcard);
+    font-weight: bold;
+}
 
 
+.heart {
+    width: 100%;
+    position: absolute;
+    left: 95%;
+    top: 0;
+    font-size: 25px;
+    color: black;
+    display: none;
+
+}
+
+.article:hover .heart {
+    color: #fe0100;
+    display: block
+}
+
+.article:hover .img {
+    <img src="./im"
+}

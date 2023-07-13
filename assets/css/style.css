@@ -15,8 +15,9 @@ body{ font-family: 'Ubuntu', sans-serif;}
 }
 
 .block_header {
-    width: 100%;
+    width: 1900px;
     height: 50px;
+    margin: 0 auto;
     background-color: var(--bl-title);
     box-shadow: 0px 1px 20px 1px #d7d7d7;
     position: fixed;
@@ -25,7 +26,7 @@ body{ font-family: 'Ubuntu', sans-serif;}
 }
 
 .center_site {
-    width: 80%;
+    width: 70%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -36,11 +37,10 @@ body{ font-family: 'Ubuntu', sans-serif;}
 
 .gender {
     display: flex;
-    justify-content: center;
-    text-align: left;
-    width: 30%;
+    width: 33%;
     max-height: 100%;
-    gap: 0.75rem;
+    gap: 0.7rem;
+   justify-content: center;
 
 }
 
@@ -50,45 +50,49 @@ body{ font-family: 'Ubuntu', sans-serif;}
 }
 
 .logo {
-    width: 40%;
+    width: 33%;
     text-align: center;
     max-height: 100%;
 }
 
 .shop {
-    width: 30%;
+    width: 33%;
     max-height: 100%;
     text-align: center;
 }
 
 .container {
-    width: 1770px;
-    height: 100%;
-    margin: 0 19rem;
+    width: 80%;
+    height:1170px;
+    margin: 0 auto;
     position: relative;
-    
+
    
 }
 
 .article {
-    margin: 1rem 2rem;
+  
+    margin: 1rem 0.5rem;
 }
 
 .row {
-    width: 75%;
-    height: 100%;
-    padding: 2rem;
+    width: 1100px;
+    height: 1220px;
+    margin: 0 auto;
+    padding: 3.5rem 0;
+    padding-bottom: 1rem;
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 1.5rem;
+    left: 16rem;
     
 
 }
 
 .row .article {
-    width: 300px;
+    width: calc(100 / 3 - 7rem);
     position: relative;
     display: inline-block;
+    padding-bottom: 1rem;
 }
 
 .sconto.high {
@@ -150,7 +154,8 @@ body{ font-family: 'Ubuntu', sans-serif;}
 }
 
 .article h5 {
-    font-size: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .price {
@@ -166,14 +171,15 @@ body{ font-family: 'Ubuntu', sans-serif;}
     left: 90%;
     top: 10px;
     font-size: 25px;
-    color: black;
     background-color: white;
     text-align: center;
-
-
+}
+.heart a {
+    text-decoration: none;
+    color: black;
 }
 
-.article:hover .heart {
+.heart:hover a{
     color: #fe0100;
     display: block
 }
@@ -189,8 +195,8 @@ body{ font-family: 'Ubuntu', sans-serif;}
     height: 100px;
     background-color: var(--bl-footer);
     color: white;
-    position: absolute;
-    top: 120%;
+    position: fixed;
+    top: 950px;
 }
 
 
@@ -221,5 +227,5 @@ body{ font-family: 'Ubuntu', sans-serif;}
 
 .right_footer > i {
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 1rem;
 }
